@@ -1,0 +1,27 @@
+﻿服务器上配置fonts
+
+
+
+index-local.html								选择位置
+index-choose.html								选择社区
+my-info.html									我的资料
+
+my_community_activity.html							社区活动→本区活动
+around_community_activity.html							社区活动→周边活动
+community_notice.html								社区活动→社区公告
+notice_article.html								社区活动→公告详情
+
+community_activity.html								报名页面
+community_activity_success.html							报名成功
+my_activity_success.html							我的成功报名
+
+my_activity.html								我的报名→我的报名
+my_fav.html									我的报名→我的收藏
+my_fav_success.html								收藏成功
+
+bbs_community.html								社区论坛
+bbs_article.html								论坛详情
+bbs_add.html									发布话题
+
+
+

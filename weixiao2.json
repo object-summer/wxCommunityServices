@@ -1,0 +1,33 @@
+{
+	"metadata": {
+		"name": "weixiao2",
+		"lastOpened": 0,
+		"created": 1433841850803
+	},
+	"iconSets": [],
+	"uid": -1,
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {},
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			}
+		},
+		"imagePref": {
+			"prefix": "icon-",
+			"png": true,
+			"useClassSelector": true,
+			"color": 4473924,
+			"bgColor": 16777215
+		},
+		"historySize": 100
+	},
+	"time": 1433842818741
+}

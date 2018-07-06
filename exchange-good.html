@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection"content="telephone=yes, email=yes" />
+    <title>兑换</title>
+    <meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+<!-- 	<header id="head" class="header fixed-top">
+	<ul class="page-title-tabs">
+		<li><a href=""><i class="icon-calendar"></i><span>本区活动</span></a></li>
+		<li><a href="" class="on"><i class="icon-copy"></i><span>周边活动</span></a></li>
+		<li><a href=""><i class="icon-sound"></i><span>社区公告</span></a></li>
+	</ul>
+</header> -->
+	<footer id="foot" class="footer fixed-bottom">
+		<ul class="nav-primary nav-primary-mix">
+			<li><a href="" class="current"><i class="icon-cart"></i><p>积分兑换</p></a></li>
+			<li><a href=""><i class="icon-alarm"></i><p>限时福利</p></a></li>
+			<li><a href=""><i class="icon-file"></i><p>积分记录</p> </a> </li>
+		</ul>
+	</footer>
+	<section id="main" class="wrap-page">
+		<div class="page">
+			<div class="mt10 mb10">
+				<form class="pd10 form" name="form1">
+					<div class="form-group good-exchange">
+						<div class="good-pic">
+							<img src="images/good_img.jpg" alt="商品图片">
+						</div>
+						<div class="good-info">
+							<h3>移动充值卡</h3>
+							<p>所需积分：<span class="orange">40</span></p>
+							<div class="good-num">
+								<a href="javascript:qtyUpdate('down')"><i class="icon-minus"></i></a>
+								<input type="text" name="number" value="1" pattern="[0-9]">
+								<a href="javascript:qtyUpdate('up')"><i class="icon-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="form-btn">
+						<input type="submit" value="确定兑换" class="btn btn-orange">
+					</div>
+					<div class="mt10">
+						<h3>兑换说明：</h3>
+						<div class="mt10 gray">说明说明说明说明说明说明说明说明说明说明说明说明说明说明说明说明说明说明</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+</body>
+<script type="text/JavaScript">
+	// 数量
+	function qtyUpdate(n){
+	    var f = document.form1;
+	    var c = f.number.value;
+	    if(n == "up"){
+	        c++;
+	    }else if(n == "down"){
+	        if(c > 1) c--;
+	    }
+	    f.number.value = c;
+	}
+</script>
+</html>
