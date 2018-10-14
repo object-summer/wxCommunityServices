@@ -31,7 +31,10 @@ section,
 summary {
 	display: block
 }
-
+nav,
+footer{
+	max-width: 734px!important;
+}
 audio,
 canvas,
 progress,
